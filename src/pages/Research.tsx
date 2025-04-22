@@ -128,7 +128,7 @@ export default function Research() {
             {/* Project 1 */}
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                src="https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//27.jpg"
                 alt="Autonomous Robot Navigation"
                 className="w-full h-64 object-cover"
               />
@@ -145,6 +145,14 @@ export default function Research() {
                   <span className="text-sm text-gray-500">
                     Started: January 2025
                   </span>
+                  <span>
+                    <a
+                      href="https://bracu-alter.web.app/"
+                      className="text-research-600 hover:text-research-800"
+                    >
+                      View Project
+                    </a>
+                  </span>
                 </div>
               </div>
             </div>
@@ -152,14 +160,12 @@ export default function Research() {
             {/* Project 2 */}
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                src="https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//WhatsApp%20Image%202025-04-21%20at%2011.06.22_0070bf29.jpg"
                 alt="Space Debris Capture System"
                 className="w-full h-64 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">
-                  Space Debris Capture System
-                </h3>
+                <h3 className="text-xl font-bold mb-2">BRACU RaptorX</h3>
                 <p className="text-gray-600 mb-4">
                   Designing a novel system for identifying, tracking, and safely
                   removing orbital debris to reduce collision risks.

@@ -13,31 +13,31 @@ import { ArrowRight } from "lucide-react";
 const highlights = [
   {
     id: 1,
-    title: "Advanced Rescue Rover system",
+    title: "4IR: Robotics Research",
     description:
       "Our team has developed a breakthrough in autonomous navigation that enables robots to navigate complex and dynamic environments with unprecedented accuracy.",
     image:
-      "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//25.jpg",
+      "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//27.jpg",
     category: "Robotics",
-    link: "/research/autonomous-navigation",
+    link: "/research/4ir-robotics-research",
   },
-  {
-    id: 2,
-    title: "Unmanned Aerial Vehicle Systems",
-    description:
-      "A novel approach to identifying and removing orbital debris, improving safety for satellites and future space missions.",
-    image:
-      "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//Screenshot%202025-04-22%20at%201.37.19%20AM.png",
-    category: "Space Engineering",
-    link: "/research/space-debris",
-  },
+  // {
+  //   id: 2,
+  //   title: "Unmanned Aerial Vehicle Systems",
+  //   description:
+  //     "A novel approach to identifying and removing orbital debris, improving safety for satellites and future space missions.",
+  //   image:
+  //     "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//Screenshot%202025-04-22%20at%201.37.19%20AM.png",
+  //   category: "Space Engineering",
+  //   link: "/research/space-debris",
+  // },
   {
     id: 3,
     title: "Space systems",
     description:
       "Enhancing productivity and safety in human-robot collaborative environments through advanced sensing and responsive systems.",
     image:
-      "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//WhatsApp%20Image%202025-04-21%20at%2011.06.22_0070bf29.jpg",
+      "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//294597575_454838666650924_6642076040121578354_n.jpg",
     category: "Interdisciplinary",
     link: "/research/human-robot-collaboration",
   },
