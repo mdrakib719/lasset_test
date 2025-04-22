@@ -19,7 +19,7 @@ const highlights = [
     image:
       "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//27.jpg",
     category: "Robotics",
-    link: "/research/4ir-robotics-research",
+    link: "/research",
   },
   // {
   //   id: 2,
