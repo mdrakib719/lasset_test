@@ -19,7 +19,7 @@ const highlights = [
     image:
       "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//27.jpg",
     category: "Robotics",
-    link: "/research",
+    link: "/alter",
   },
   // {
   //   id: 2,
@@ -39,7 +39,7 @@ const highlights = [
     image:
       "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//294597575_454838666650924_6642076040121578354_n.jpg",
     category: "Interdisciplinary",
-    link: "/research/human-robot-collaboration",
+    link: "/space",
   },
 ];
 

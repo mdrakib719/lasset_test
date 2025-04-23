@@ -33,10 +33,10 @@ export default function People() {
               <p className="mt-2 text-gray-600">
                 Department of Electrical and Electronic Engineering
               </p>
-              <p className="mt-1 text-sm text-gray-500">
+              {/* <p className="mt-1 text-sm text-gray-500">
                 Specializing in autonomous systems and human-robot interaction
                 with over 15 years of research experience.
-              </p>
+              </p> */}
             </div>
 
             {/* Associate Director */}
@@ -53,10 +53,10 @@ export default function People() {
               <p className="mt-2 text-gray-600">
                 Department of Electrical and Electronic Engineering
               </p>
-              <p className="mt-1 text-sm text-gray-500">
+              {/* <p className="mt-1 text-sm text-gray-500">
                 Leading our space engineering initiatives with expertise in
                 orbital mechanics and spacecraft design.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -136,9 +136,7 @@ export default function People() {
         </div>
         {/* Research Assistants and Students */}
         <div className="mt-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">
-            Research Assistants & Students
-          </h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Students</h2>
           <div className="bg-white rounded-lg shadow-sm p-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {Array.from({ length: 12 }).map((_, i) => (

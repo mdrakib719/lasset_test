@@ -12,6 +12,8 @@ import People from "./pages/People";
 // import Resources from "./pages/Resources";
 // import Opportunities from "./pages/Opportunities";
 // import Partners from "./pages/Partners";
+import Alter from "./pages/Alter";
+import Space from "./pages/Space";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -36,6 +38,8 @@ const App = () => (
             <Route path="/partners" element={<Partners />} /> */}
             <Route path="/news" element={<News />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/alter" element={<Alter />} />
+            <Route path="/space" element={<Space />} />
           </Route>
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
