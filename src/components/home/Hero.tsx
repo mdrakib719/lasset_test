@@ -7,6 +7,8 @@ const images = [
   "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//27.jpg",
   "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//469825232_1373973917214824_5337420237526801877_n.jpg",
   "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//Screenshot%202025-04-21%20at%201.16.08%20PM.png",
+  "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//21.jpg",
+  "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//WhatsApp%20Image%202025-04-21%20at%2011.19.27_9edbb9b5.jpg",
 ];
 
 export function Hero() {

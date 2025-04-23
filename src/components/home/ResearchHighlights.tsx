@@ -21,16 +21,6 @@ const highlights = [
     category: "Robotics",
     link: "/alter",
   },
-  // {
-  //   id: 2,
-  //   title: "Unmanned Aerial Vehicle Systems",
-  //   description:
-  //     "A novel approach to identifying and removing orbital debris, improving safety for satellites and future space missions.",
-  //   image:
-  //     "https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//Screenshot%202025-04-22%20at%201.37.19%20AM.png",
-  //   category: "Space Engineering",
-  //   link: "/research/space-debris",
-  // },
   {
     id: 3,
     title: "Space systems",
@@ -56,11 +46,12 @@ export function ResearchHighlights() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Responsive Layout: Flex on md+, vertical stack on small */}
+        <div className="flex flex-col md:flex-row md:justify-between gap-8">
           {highlights.map((highlight) => (
             <Card
               key={highlight.id}
-              className="flex flex-col overflow-hidden hover:shadow-lg transition-shadow duration-300"
+              className="flex flex-col overflow-hidden hover:shadow-lg transition-shadow duration-300 md:w-[48%]"
             >
               <div className="aspect-video w-full overflow-hidden">
                 <img

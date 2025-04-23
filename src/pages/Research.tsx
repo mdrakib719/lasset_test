@@ -133,10 +133,13 @@ export default function Research() {
                 className="w-full h-64 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">BRACU ALTER</h3>
+                <h3 className="text-xl font-bold mb-2">
+                  4IR: Robotics Research
+                </h3>
                 <p className="text-gray-600 mb-4">
-                  Developing robust navigation systems for robots operating in
-                  challenging environments without GPS or pre-mapped routes.
+                  Our team has developed a breakthrough in autonomous navigation
+                  that enables robots to navigate complex and dynamic
+                  environments with unprecedented accuracy.
                 </p>
                 <div className="flex justify-between items-center">
                   <span className="text-sm bg-research-100 text-research-800 px-3 py-1 rounded-full">
@@ -160,15 +163,15 @@ export default function Research() {
             {/* Project 2 */}
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <img
-                src="https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//WhatsApp%20Image%202025-04-21%20at%2011.06.22_0070bf29.jpg"
+                src="https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//294597575_454838666650924_6642076040121578354_n.jpg"
                 alt="Space Debris Capture System"
                 className="w-full h-64 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">BRACU RaptorX</h3>
+                <h3 className="text-xl font-bold mb-2">Space systems</h3>
                 <p className="text-gray-600 mb-4">
-                  Designing a novel system for identifying, tracking, and safely
-                  removing orbital debris to reduce collision risks.
+                  Enhancing productivity and safety in human-robot collaborative
+                  environments through advanced sensing and responsive systems.
                 </p>
                 <div className="flex justify-between items-center">
                   <span className="text-sm bg-research-100 text-research-800 px-3 py-1 rounded-full">
