@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react"; // Assuming you're using Lucide
+
 export default function Research() {
   return (
     <div className="min-h-screen py-16">
@@ -17,9 +20,10 @@ export default function Research() {
             Research Areas
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Robotics Research */}
+            {/* Robotics */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="h-48 bg-gradient-to-r from-research-500 to-research-700 rounded-md flex items-center justify-center mb-4">
+              <div className="h-48 bg-gradient-to-r from-blue-500 to-blue-700 rounded-md flex items-center justify-center mb-4">
+                {/* SVG Icon */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -52,7 +56,7 @@ export default function Research() {
 
             {/* Space Engineering */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="h-48 bg-gradient-to-r from-accent1-500 to-accent1-700 rounded-md flex items-center justify-center mb-4">
+              <div className="h-48 bg-gradient-to-r from-indigo-500 to-indigo-700 rounded-md flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -83,9 +87,9 @@ export default function Research() {
               </ul>
             </div>
 
-            {/* Interdisciplinary Projects */}
+            {/* Interdisciplinary */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="h-48 bg-gradient-to-r from-accent2-500 to-accent2-700 rounded-md flex items-center justify-center mb-4">
+              <div className="h-48 bg-gradient-to-r from-purple-500 to-purple-700 rounded-md flex items-center justify-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -120,12 +124,12 @@ export default function Research() {
           </div>
         </div>
 
+        {/* Projects */}
         <div className="mt-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">
             Current Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Project 1 */}
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <img
                 src="https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//27.jpg"
@@ -142,25 +146,23 @@ export default function Research() {
                   environments with unprecedented accuracy.
                 </p>
                 <div className="flex justify-between items-center">
-                  <span className="text-sm bg-research-100 text-research-800 px-3 py-1 rounded-full">
+                  <span className="text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full">
                     Active
                   </span>
                   <span className="text-sm text-gray-500">
                     Started: January 2025
                   </span>
-                  <span>
-                    <a
-                      href="/alter"
-                      className="text-research-600 hover:text-research-800"
-                    >
-                      View Project
-                    </a>
-                  </span>
+                  <Link
+                    to="/alter"
+                    className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium"
+                  >
+                    View all research projects{" "}
+                    <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
                 </div>
               </div>
             </div>
 
-            {/* Project 2 */}
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <img
                 src="https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//294597575_454838666650924_6642076040121578354_n.jpg"
@@ -168,13 +170,13 @@ export default function Research() {
                 className="w-full h-64 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Space systems</h3>
+                <h3 className="text-xl font-bold mb-2">Space Systems</h3>
                 <p className="text-gray-600 mb-4">
                   Enhancing productivity and safety in human-robot collaborative
                   environments through advanced sensing and responsive systems.
                 </p>
                 <div className="flex justify-between items-center">
-                  <span className="text-sm bg-research-100 text-research-800 px-3 py-1 rounded-full">
+                  <span className="text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full">
                     Active
                   </span>
                   <span className="text-sm text-gray-500">
@@ -191,7 +193,7 @@ export default function Research() {
             Interested in our research methodology or want to explore more
             projects?
           </p>
-          <p className="mt-2 text-research-600">
+          <p className="mt-2 text-blue-600">
             Contact us to learn more about our work or potential collaboration
             opportunities.
           </p>
