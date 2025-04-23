@@ -150,7 +150,7 @@ export default function Research() {
                   </span>
                   <span>
                     <a
-                      href="https://bracu-alter.web.app/"
+                      href="/alter"
                       className="text-research-600 hover:text-research-800"
                     >
                       View Project
