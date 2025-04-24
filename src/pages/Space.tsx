@@ -27,14 +27,14 @@ export default function Space() {
               <span className="text-sm text-gray-500">
                 Started: January 2025
               </span>
-              <span>
+              {/* <span>
                 <a
                   href="https://bracu-alter.web.app/"
                   className="text-research-600 hover:text-research-800"
                 >
                   View Project
                 </a>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
