@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { ArrowRight } from "lucide-react"; // Assuming you're using Lucide
 
 export default function Research() {
@@ -179,9 +179,17 @@ export default function Research() {
                   <span className="text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full">
                     Active
                   </span>
-                  <span className="text-sm text-gray-500">
-                    Started: October 2024
+              
+                  <span>
+                  <Link
+                    to="/sst"
+                    className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium"
+                  >
+                    View all research projects{" "}
+                    <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
                   </span>
+                
                 </div>
               </div>
             </div>
