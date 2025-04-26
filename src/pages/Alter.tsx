@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Alter() {
   return (
     <div className="mt-16">
@@ -55,13 +57,15 @@ export default function Alter() {
               <span className="text-sm bg-research-100 text-research-800 px-3 py-1 rounded-full">
                 Active
               </span>
-              <span className="text-sm text-gray-500">
-                Started: October 2024
+               <span>
+              <Link to={'/rapter'}>View Project</Link>
               </span>
             </div>
           </div>
         </div>
+        
       </div>
+      
 
       {/* Contact Prompt */}
       <div className="mt-16 text-center">
