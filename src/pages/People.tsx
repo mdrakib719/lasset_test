@@ -123,11 +123,11 @@ export default function People() {
             {/* Cironjit Roy */}
             <div className="bg-white rounded-lg shadow-sm p-6 text-center w-80">
               <img
-                src="https://czrzkrlkqywcczazeopo.supabase.co/storage/v1/object/public/blog-images//Screenshot%202025-04-22%20at%2012.50.01%20AM.png"
+                src="https://i.ibb.co.com/chw5pgWz/Whats-App-Image-2025-04-27-at-11-17-57-PM.jpg"
                 alt="Cironjit Roy"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-bold">Cironjit Roy</h3>
+              <h3 className="text-xl font-bold">ChironJeet das Joy</h3>
               <p className="text-research-600 font-medium">
                 Research Assistant
               </p>
@@ -141,45 +141,39 @@ export default function People() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {Array.from({ length: 12 }).map((_, i) => (
                 <div key={i} className="flex items-center space-x-3">
-                  <img
-                    src={`https://randomuser.me/api/portraits/${
-                      i % 2 === 0 ? "men" : "women"
-                    }/${i + 30}.jpg`}
-                    alt={`Student ${i + 1}`}
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
+                 
                   <div>
                     <p className="font-medium text-gray-900">
                       {
                         [
-                          "Michael",
-                          "Emma",
-                          "Noah",
-                          "Olivia",
-                          "William",
-                          "Ava",
-                          "James",
-                          "Sophia",
-                          "Benjamin",
-                          "Isabella",
-                          "Lucas",
-                          "Mia",
+                          " Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
                         ][i]
                       }{" "}
                       {
                         [
-                          "Davis",
-                          "Wilson",
-                          "Anderson",
-                          "Thomas",
-                          "Jackson",
-                          "White",
-                          "Harris",
-                          "Martin",
-                          "Thompson",
-                          "Moore",
-                          "Allen",
-                          "Young",
+                          " Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
+                          "Member",
                         ][i]
                       }
                     </p>

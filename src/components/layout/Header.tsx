@@ -21,7 +21,7 @@ export function Header() {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-6"
         aria-label="Global"
       >
         {/* Logo */}
